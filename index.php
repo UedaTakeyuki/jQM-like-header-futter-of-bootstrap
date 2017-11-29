@@ -49,8 +49,10 @@
 <nav class="navbar navbar-default navbar-static-top navbar-inverse" style="position: relative;">
   <div class="container-fluid">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed"data-toggle="collapse"data-target="#navbarEexample10">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarEexample10">
         <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
       <!-- for title centering, refer https://stackoverflow.com/questions/23400234/centering-brand-logo-in-bootstrap-3-navbar -->
