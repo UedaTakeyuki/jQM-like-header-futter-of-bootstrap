@@ -73,21 +73,20 @@
 </nav>
 
 
-<!-- <div data-role="content"> -->
-  <h1>コンテンツ</h1>
-<!-- </div> -->
-
-  <div id="footer" style="background-color: #aaa;
+<!--  <div id="footer" style="background-color: #aaa;
     height: 0px;
     text-align: center;
     line-height: 40px;
     color : #fff;
     margin-top:30px;"><h4>© Atelier UEDA🐸</h4>
-  </div>
+  </div>-->
 
 <!-- <div data-role="footer" data-position="fixed" data-disable-page-zoom="false">
     <h4>© Atelier UEDA🐸</h4>
 </div> -->
+<div class="footer navbar-inverse navbar-fixed-bottom" >
+    <h4 class="text-center" style="font-weight: bold">© Atelier UEDA🐸</h4>
+</div>
 
 <!--</div> --> <!-- page -->
 
