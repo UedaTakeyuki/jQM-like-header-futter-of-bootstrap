@@ -25,7 +25,7 @@
   <link rel="stylesheet" href="https://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.css" />
   <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
   <script src="https://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>-->
-
+  <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
   <!-- VUE start -->
   <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.10/vue.js'></script>
   <!-- VUE end -->
@@ -76,6 +76,17 @@
   margin: 0 auto;
 /*  text-decoration: none;*/
   text-shadow: none;
+  color: white;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.copyright {
+  margin: 0 auto;
+/*  text-decoration: none;*/
   color: white;
   display: flex;
   -webkit-box-align: center;
@@ -147,6 +158,9 @@ footer{
     display: flex;
     justify-content: space-around;
     width: 100%;
+  background-color: #222;
+  border-color: #080808;
+
 }
 </style>
 
@@ -158,14 +172,16 @@ footer{
     margin-top:30px;"><h4>© Atelier UEDA🐸</h4>
   </div>-->
 <div class="content">
-本文だよん
+本文だよ
 </div>
 <!-- <div data-role="footer" data-position="fixed" data-disable-page-zoom="false">
     <h4>© Atelier UEDA🐸</h4>
 </div> -->
 <footer>
-    <h4 class="text-center" style="font-weight: bold">© Atelier UEDA🐸</h4>
-<footer>
+  <div class="copyright">
+    <h4>© Atelier UEDA🐸</h4>
+  </div>
+</footer>
 
 <!--</div> --> <!-- page -->
 
