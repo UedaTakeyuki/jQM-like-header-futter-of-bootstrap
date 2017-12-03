@@ -87,7 +87,9 @@
 .copyright {
   margin: 0 auto;
 /*  text-decoration: none;*/
-  color: white;
+  color: #333;
+  text-shadow: 0 1px 0 #fff;
+/*  color: white; */
   display: flex;
   -webkit-box-align: center;
   -webkit-align-items: center;
@@ -154,13 +156,11 @@ body{
     flex-grow: 1;
 }
 footer{
-    background-color: #000;
     display: flex;
     justify-content: space-around;
     width: 100%;
-  background-color: #222;
-  border-color: #080808;
-
+    background-color: #222;
+    border-color: #080808;
 }
 </style>
 
