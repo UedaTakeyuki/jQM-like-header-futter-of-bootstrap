@@ -66,12 +66,14 @@
   display: -moz-box;
   display: -ms-flexbox;
   display: flex;
-  padding: .8em 1.2em; 
+/*  padding: .8em 1.2em; */
+  padding: .5em 1.2em; 
   background-color: #222;
   border-color: #080808 
 }
 .logo {
   margin: 0 auto;
+  font-weight: bold;
 }
 .button {
   display: -webkit-box;
@@ -90,7 +92,8 @@
 /*    display: inline-block; */
     position: relative;
     text-decoration: none;
-    color: #f9a9ae;
+/*    color: #f9a9ae;*/
+    color: #aeaeae;
 /*    width: 120px;
     height: 50px;
     line-height: 50px; */
@@ -99,8 +102,10 @@
     vertical-align: middle;
     overflow: hidden;
     font-weight: bold;
-    background-image: -webkit-linear-gradient(#fed6e3 0%, #ffaaaa 100%);
-    background-image: linear-gradient(#fed6e3 0%, #ffaaaa 100%);
+/*    background-image: -webkit-linear-gradient(#fed6e3 0%, #ffaaaa 100%);
+    background-image: linear-gradient(#fed6e3 0%, #ffaaaa 100%);*/
+    background-image: -webkit-linear-gradient(#444 0%, #2d2d2d 100%);
+    background-image: linear-gradient(#444, #2d2d2d);
     text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.66);
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.28);
 }
@@ -109,8 +114,10 @@
     -webkit-transform: translateY(2px);
     transform: translateY(2px);/*沈むように*/
     box-shadow: 0 0 1px rgba(0, 0, 0, 0.15);
-    background-image: -webkit-linear-gradient(#fed6e3 0%, #ffbcbc 100%);
+/*    background-image: -webkit-linear-gradient(#fed6e3 0%, #ffbcbc 100%);
     background-image: linear-gradient(#fed6e3 0%, #ffbcbc 100%);/*グラデーションを明るく*/
+    background-image: -webkit-linear-gradient(#555 0%, #3d3d3d 100%);
+    background-image: linear-gradient(#555, #3d3d3d);
 }
 </style>
 
