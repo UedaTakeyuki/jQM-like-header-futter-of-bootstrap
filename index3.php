@@ -21,7 +21,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
  <title>タイトル</title>
-<!--  <link rel="stylesheet" href="https://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.css" />
+ <!--
+  <link rel="stylesheet" href="https://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.css" />
   <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
   <script src="https://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>-->
 
@@ -128,6 +129,25 @@
     background-image: -webkit-linear-gradient(#555 0%, #3d3d3d 100%);
     background-image: linear-gradient(#555, #3d3d3d);
 }
+/* refer:
+ https://qiita.com/hashrock/items/939684b9207dbab1d59e
+ https://qiita.com/engulisyu/items/999c743e084056ff36d4
+*/
+body{
+    margin: 0;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+.content{
+    flex-grow: 1;
+}
+footer{
+    background-color: #000;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
 </style>
 
 <!--  <div id="footer" style="background-color: #aaa;
@@ -137,15 +157,20 @@
     color : #fff;
     margin-top:30px;"><h4>© Atelier UEDA🐸</h4>
   </div>-->
-
+<div class="content">
+本文だよん
+</div>
 <!-- <div data-role="footer" data-position="fixed" data-disable-page-zoom="false">
     <h4>© Atelier UEDA🐸</h4>
 </div> -->
-<div class="footer navbar-inverse navbar-fixed-bottom" >
+<footer>
     <h4 class="text-center" style="font-weight: bold">© Atelier UEDA🐸</h4>
-</div>
+<footer>
 
 <!--</div> --> <!-- page -->
 
 </body>
+<style>
+
+</style>
 </html>
