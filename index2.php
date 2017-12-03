@@ -129,6 +129,10 @@
     background-image: -webkit-linear-gradient(#555 0%, #3d3d3d 100%);
     background-image: linear-gradient(#555, #3d3d3d);
 }
+.footer{
+    color: #333;
+    text-shadow: 0 1px 0 #fff;
+}
 </style>
 
 <!--  <div id="footer" style="background-color: #aaa;
