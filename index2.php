@@ -69,11 +69,13 @@
 /*  padding: .8em 1.2em; */
   padding: .5em 1.2em; 
   background-color: #222;
-  border-color: #080808 
+  border-color: #080808;
 }
 .logo {
   margin: 0 auto;
-  font-weight: bold;
+  text-decoration: none;
+  text-shadow: none;
+  color: white;
 }
 .button {
   display: -webkit-box;
@@ -97,7 +99,8 @@
 /*    width: 120px;
     height: 50px;
     line-height: 50px; */
-    border-radius: 5px;
+/*    border-radius: 5px; */
+    border-radius: 50px;
     text-align: center;
     vertical-align: middle;
     overflow: hidden;
