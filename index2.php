@@ -73,9 +73,15 @@
 }
 .logo {
   margin: 0 auto;
-  text-decoration: none;
+/*  text-decoration: none;*/
   text-shadow: none;
   color: white;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 .button {
   display: -webkit-box;
