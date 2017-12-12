@@ -21,11 +21,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
  <title>タイトル</title>
- <!--
-  <link rel="stylesheet" href="https://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.css" />
+<!--  <link rel="stylesheet" href="https://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.css" />
   <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
   <script src="https://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>-->
   <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+
   <!-- VUE start -->
   <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.10/vue.js'></script>
   <!-- VUE end -->
@@ -84,19 +84,6 @@
   -ms-flex-align: center;
   align-items: center;
 }
-.copyright {
-  margin: 0 auto;
-/*  text-decoration: none;*/
-  color: #333;
-  text-shadow: 0 1px 0 #fff;
-/*  color: white; */
-  display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -moz-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
 .button {
   display: -webkit-box;
   display: -webkit-flex;
@@ -142,28 +129,53 @@
     background-image: -webkit-linear-gradient(#555 0%, #3d3d3d 100%);
     background-image: linear-gradient(#555, #3d3d3d);
 }
-/* refer:
- https://qiita.com/hashrock/items/939684b9207dbab1d59e
- https://qiita.com/engulisyu/items/999c743e084056ff36d4
-*/
-body{
-    margin: 0;
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-}
-.content{
-    flex-grow: 1;
-}
-footer{
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    background-color: #222;
-    border-color: #080808;
+.footer{
+    color: #333;
+    text-shadow: 0 1px 0 #fff;
 }
 </style>
 
+あ<br>
+あ<br>
+あ<br>
+あ<br>
+あ<br>
+あ<br>
+あ<br>
+あ<br>
+あ<br>
+あ<br>
+あ<br>
+あ<br>
+あ<br>
+あ<br>
+あ<br>
+あ<br>
+あ<br>
+あ<br>
+あ<br>
+あ<br>
+あ<br>
+あ<br>
+あ<br>
+あ<br>
+あ<br>
+あ<br>
+あ<br>
+あ<br>
+あ<br>
+あ<br>
+あ<br>
+あ<br>
+あ<br>
+あ<br>
+あ<br>
+あ<br>
+あ<br>
+あ<br>
+あ<br>
+あ<br>
+あ<br>
 <!--  <div id="footer" style="background-color: #aaa;
     height: 0px;
     text-align: center;
@@ -171,64 +183,15 @@ footer{
     color : #fff;
     margin-top:30px;"><h4>© Atelier UEDA🐸</h4>
   </div>-->
-<div class="content">
-本文だよ
 
-あ<br>
-あ<br>
-あ<br>
-あ<br>
-あ<br>
-あ<br>
-あ<br>
-あ<br>
-あ<br>
-あ<br>
-あ<br>
-あ<br>
-あ<br>
-あ<br>
-あ<br>
-あ<br>
-あ<br>
-あ<br>
-あ<br>
-あ<br>
-あ<br>
-あ<br>
-あ<br>
-あ<br>
-あ<br>
-あ<br>
-あ<br>
-あ<br>
-あ<br>
-あ<br>
-あ<br>
-あ<br>
-あ<br>
-あ<br>
-あ<br>
-あ<br>
-あ<br>
-あ<br>
-あ<br>
-あ<br>
-あ<br>
-</div>
 <!-- <div data-role="footer" data-position="fixed" data-disable-page-zoom="false">
     <h4>© Atelier UEDA🐸</h4>
 </div> -->
-<footer>
-  <div class="copyright">
-    <h4>© Atelier UEDA🐸</h4>
-  </div>
-</footer>
+<div class="footer navbar-inverse navbar-fixed-bottom" >
+    <h4 class="text-center" style="font-weight: bold">© Atelier UEDA🐸</h4>
+</div>
 
 <!--</div> --> <!-- page -->
 
 </body>
-<style>
-
-</style>
 </html>
