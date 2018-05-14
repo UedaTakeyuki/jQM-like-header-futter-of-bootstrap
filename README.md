@@ -7,4 +7,4 @@ Under Construction
 - [flexbox(header) + bs3(footer)](http://klingsor.uedasoft.com/tools/171115/index2.php)
 - [flexbox only](http://klingsor.uedasoft.com/tools/171115/index3.php)
 - [flexbox(header) + bs3(footer)](http://klingsor.uedasoft.com/tools/171115/index4.php)
-- [flexbox(header) + bs3(footer)](http://klingsor.uedasoft.com/tools/171115/index4.php)
+- [bs3 + css](http://klingsor.uedasoft.com/tools/171115/index5.php)
